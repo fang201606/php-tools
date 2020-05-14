@@ -1,0 +1,23 @@
+{
+    "name": "zhifang/tools",
+    "description": "php tools",
+    "require": {
+        "php": "~7.0",
+        "nesbot/carbon": "^2.34",
+        "phpunit/phpunit": "^9.1"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "frz",
+            "email": "1401034161@qq.com"
+        }
+    ],
+    "homepage": "https://github.com/fang201606/php-tools",
+    "autoload": {
+        "psr-4": {
+            "ZhiFang\\Tools\\": "src",
+            "ZhiFang\\Tools\\Tests\\": "tests"
+        }
+    }
+}
